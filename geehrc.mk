@@ -23,9 +23,8 @@ PRODUCT_PACKAGES += \
         LiveWallpapersPicker \
         VisualizationWallpapers
 
-
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gee,geeb,geehrc,e975,geehrc_4g_spr,geespr,ls970,geehrc4g,geehrc4g_spr_us,geebus,e970,e973,e971,geeb_att_us
+TARGET_OTA_ASSERT_DEVICE := gee,geeb,geehrc,e975,geehrc_4g_spr,geespr,ls970,geehrc4g,geehrc4g_spr_us,geebus,e970,e973,e971,geeb_att_us,f180,f180s,f180k,f180l
 
 # Get the long list of APNs
 PRODUCT_COPY_FILES := device/lge/geehrc/apns-full-conf.xml:system/etc/apns-conf.xml
@@ -35,7 +34,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 PRODUCT_NAME := full_geehrc
 PRODUCT_DEVICE := geehrc
-PRODUCT_BRAND := Android
+PRODUCT_BRAND := LGE
 PRODUCT_MODEL := Optimus G
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RESTRICT_VENDOR_FILES := false
