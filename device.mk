@@ -159,6 +159,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Upto 3 layers can go through overlays
 PRODUCT_PROPERTY_OVERRIDES += persist.hwc.mdpcomp.enable=true
 
+# Camera
+PRODUCT_PACKAGES += \
+        Snap
+
 # Force older camera API.
 PRODUCT_PROPERTY_OVERRIDES += \
 	camera2.portability.force_api=1

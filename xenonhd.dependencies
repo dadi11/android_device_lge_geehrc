@@ -5,10 +5,16 @@
    "target_path": "kernel/lge/gee",
    "revision": "mm"
  },
- { 
+ {
    "remote": "th",
    "repository": "vendor_lge",
    "target_path": "vendor/lge",
+   "revision": "mm"
+ },
+ {
+   "remote": "th",
+   "repository": "android_packages_apps_Snap",
+   "target_path": "packages/apps/Snap",
    "revision": "mm"
  }
 ]
